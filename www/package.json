@@ -1,0 +1,31 @@
+{
+  "name": "starzoneold",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . LaravelElectron --out=dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sithuaung67/starzoneold.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sithuaung67/starzoneold/issues"
+  },
+  "homepage": "https://github.com/sithuaung67/starzoneold#readme",
+  "devDependencies": {
+    "electron": "^12.0.6",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "node-php-server": "^0.1.2"
+  }
+}

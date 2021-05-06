@@ -1,0 +1,14 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "../demo/src/assets/sass/style";
+// skins for demo only
+@import "../demo/src/assets/sass/global/layout/aside/skins/navy";
+@import "../demo/src/assets/sass/global/layout/brand/skins/navy";
+@import "../demo/src/assets/sass/global/layout/header/skins/base/light";
+@import "../demo/src/assets/sass/global/layout/header/skins/menu/light";
